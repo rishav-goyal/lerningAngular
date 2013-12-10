@@ -1,0 +1,65 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  /*font-size: 100%;*/
+  font: inherit;
+  vertical-align: baseline;
+/*  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);*/
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none; /* Disable selection/Copy of UIWebView */
+}
+
+input, div, p, textarea {
+/*  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);*/
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+}
+
+
+ol, ul {
+  list-style: none;
+}
+
+a img {
+  border: none;
+}
+
+
+a:active {
+  background: #d7eafc;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.loading_region {
+  background: url("../../imgs/loading_msg.gif") no-repeat center center;
+  background-size:25px;
+  min-height: 250px !important;
+  border:1px solid red;
+}
+
+.ui-active {
+	display : block;
+}
+.ui-inactive {
+	display : none;
+}
+
+#outgoingFeedRegion : {
+  position:relative;
+}
+#incomingFeedRegion : {
+  position:relative;
+}
+#newQuestionRegion : {
+  position:relative;
+}
+#questionDetailsRegion : {
+  position:relative;
+}
+#answerRegion : {
+  position:relative;
+}

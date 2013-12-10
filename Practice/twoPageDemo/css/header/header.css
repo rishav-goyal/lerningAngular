@@ -1,0 +1,70 @@
+#headerRegion {
+	position: fixed;
+	top: 0px;
+	z-index: 3000;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#474747), color-stop(50%,#151515), color-stop(51%,black), color-stop(100%,black));
+	
+	width: 100%;
+  padding: 5px 6px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+
+}
+/*
+.header
+{   
+	width: 100%;
+float: left;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#474747), color-stop(50%,#151515), color-stop(51%,black), color-stop(100%,black));
+padding: 5px 6px;
+height: 42px;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+*/
+.home {
+float: left;
+width: 42px;
+height: 32px;
+background: url(../../imgs/header/home_header.png)no-repeat 50%;
+background-size: contain;
+}
+.back
+{
+width: 55px;
+height: 32px;
+float: left;
+background: url(../../imgs/header/back.png)no-repeat 0%;
+background-size: contain;
+}
+.setting {
+float: right;
+width: 40px;
+height: 32px;
+background: url(../../imgs/header/setting.png)no-repeat right;
+background-size: contain;
+}
+.user_icon {
+float: right;
+width: 52px;
+height: 32px;
+background: url(../../imgs/header/user_header.png) no-repeat 50%;
+background-size: contain;
+
+}
+.dollar {
+float: right;
+width: 40px;
+height: 32px;
+background: url(../../imgs/header/dollar.png)no-repeat;
+background-size: contain;
+margin-left: 5px;
+}
+.redeem {
+float: left;
+width: 40px;
+height: 32px;
+background: url(../../imgs/header/redeem_icon.png)no-repeat;
+background-size: contain;
+margin-left: 5px;
+}

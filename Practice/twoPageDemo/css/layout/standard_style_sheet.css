@@ -1,0 +1,1654 @@
+/* ----------------- Common CSS ----------------- */
+
+     body 
+     {
+      
+      font: 10px "Myrid Pro", Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      
+     }
+
+     .no_bg {background: none !important;}
+     
+    /* a {
+        color: #1E167F;
+        cursor: pointer;
+        text-decoration: none;
+      }*/
+    .relative {position: relative;}
+
+    .cb5 {
+      margin: 5px;
+      clear: both;
+    }
+    .cb10 {
+      margin: 10px;
+      clear: both;
+    }
+    .cb20 {
+      margin: 20px;
+      clear: both;
+    }
+
+    .mt5 {
+      margin-top: 5px;
+    }
+    .mt10 {
+      margin-top: 10px;
+    }
+    .mt15 {
+      margin-top: 15px;
+    }
+    .mt20 {
+      margin-top: 20px;
+    }
+    .ellip {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .bold 
+    {
+      font-family: MyridProBold, Helvetica, Arial, sans-serif !important;
+    }
+    .semi_bold 
+    {
+      font-family: MyridProSemibold, Helvetica, Arial, sans-serif !important;
+    }
+    .semi_bolditalic 
+    {
+      font-family: MyridPro-SemiboldItalic, Helvetica, Arial, sans-serif !important;
+    }
+
+    .text_center {text-align: center !important;}
+
+    .left {float: left !important;}
+
+    .right {float: right !important;}
+
+    .uppercase{text-transform: uppercase;}
+
+    .clear{clear: both;}
+
+    .no_radius{border-radius: 0 !important;}
+    
+    .inline{display: inline-block;}
+
+    .font26 {
+      font: normal 260%  /120% "Myrid Pro", Helvetica, Arial, sans-serif;
+    }
+    .font22 {
+      font: normal 220%  /120% "Myrid Pro", Helvetica, Arial, sans-serif;
+    }
+    .font20 {
+      font: normal 200%  /120% "Myrid Pro", Helvetica, Arial, sans-serif;
+    }
+    .font18 {
+      font: normal 180%  /120% "Myrid Pro", Helvetica, Arial, sans-serif;
+    }
+    .font16 {
+      font: normal 160%  /120% "Myrid Pro", Helvetica, Arial, sans-serif;
+    }
+    .font15 {
+      font: normal 150%  /120% "Myrid Pro", Helvetica, Arial, sans-serif;
+    }
+    .font14 {
+      font: normal 140%  /120% "Myrid Pro", Helvetica, Arial, sans-serif;
+    }
+    .font13 {
+      font: normal 130%  /120% "Myrid Pro", Helvetica, Arial, sans-serif;
+    }
+    .font12 {
+      font: normal 120%  /120% "Myrid Pro", Helvetica, Arial, sans-serif;
+    }
+    .font11 {
+      font: normal 110%  /120% "Myrid Pro", Helvetica, Arial, sans-serif;
+    }
+
+   .green
+   {
+    color:#95b535 !important;
+   }
+   .yellow
+   {
+    color:#d9ac56;
+   }
+   .light_grey
+   {
+    color:#fcfcfc !important;
+   }
+   .grey_text
+   {
+    color:#666;
+   }
+   .red
+   {
+    color:#a62e2e;
+   }
+   .brown
+   {
+    color:#554244;
+   }
+   .white 
+   {
+    color: #fff !important;
+   }
+   .blue_text
+   {
+   color:#2a4774;
+   }
+
+  .outer 
+  {
+    width: 100%;
+    float:left;	
+    background: url(../../imgs/grass.png)no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+  .grey_box
+   {
+      background: -webkit-gradient(linear, left top, left bottom, from(#FDFDFD), to(#C2B7B7));
+      padding:10px;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+   }
+/* ----------------- Common CSS End -----------------*/  
+
+/* ----------------- Css for Bar -----------------*/
+
+  .bar
+  {
+     width:100%;
+     float:left;
+     padding: 4px 5px;
+     box-sizing:border-box;
+     -webkit-box-sizing:border-box;
+       padding: 6px 10px 6px 6px;
+  }
+  .bar.grey 
+  {
+    background: -webkit-gradient(linear, left top, left bottom, from(#CCBFC6), to(#F5F3F6));
+
+  }
+  .bar.darkgrey 
+  {
+    background: -webkit-gradient(linear, left top, left bottom, from(#2d2d2d), to(#232122));
+  }
+  .bar.moneygreen
+  {
+    background: -webkit-gradient(linear, left top, left bottom, from(#4E9455), to(#CBDBEC));
+  }
+
+
+/* ----------------- Css for Bar End-----------------*/
+
+
+/* ------------------ css for select_teams ------------------ */
+
+
+  .bl_logo
+  {
+    width: 318px;
+    height: 92px;
+    margin: 6px auto 20px auto;
+    background: url(../../imgs/BL_logo.png) no-repeat 50% 50%;
+    background-size: cover;
+
+  }
+  .home_text
+  {
+    width:100%;
+    float:left;
+  }
+  .home_text div
+  {
+    width:30%;
+    float:left;
+  }
+  .home_text div:nth-child(2)
+  {
+    width:40%;
+  }
+  .select_team
+  {   
+    width:100%;
+    float:left;
+    text-align:center;
+    padding:10px 10px 15px 10px ;
+    margin:30px 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fdfdfd), to(#c2b7b7));
+  }
+  .select_team select
+  {
+    width: 254px;
+    margin-top: 12px;
+  }
+
+
+/* ------------------ css for select_teams End ------------------ */
+ 
+/* ----------------- css for LOGIN, SIGN UP, FORGOT PSWD screen -----------------*/
+
+            /* ----------------- css for OLD LOGIN screen -----------------*/
+            /*.login_outer 
+            {
+              width: 100%;
+              padding: 40px 20px;
+              box-sizing: border-box;
+              -webkit-box-sizing: border-box;
+              background: url(../../imgs/login_bg.png) no-repeat;
+              background-size: cover;
+            }
+            .register_now 
+            {
+              margin: 50px 0;
+            }
+            .betting_btn 
+            {
+              width: 190px;
+              margin: 10px auto 0 auto;
+            }
+            .fb_icon 
+            {
+              position: absolute;
+              left: 0;
+              width: 40px;
+              height: 40px;
+              background: url(../../imgs/fb_icon.png) no-repeat 50% 50%;
+              background-size: 9px;
+              display: inline-block;
+              top: 0;
+              border-right: 1px solid #0B1C42;
+              box-shadow: 1px 0px .5px #7493B6;
+              -webkit-box-shadow: 1px 0px .5px #7493B6;
+            }
+            .login_outer input{
+              border:0 !important;
+              border-radius: 5px !important;
+                  -webkit-border-radius: 5px !important;
+            }*/
+            /* ----------------- css for OLD LOGIN screen End-----------------*/
+            
+    .login_con
+    {
+      margin-top:30%;
+      padding: 10px;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+    }
+    
+    .grey_box.login
+    {
+      padding:10px 20px;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+    }
+    
+    .signup_con
+    {
+      margin-top:20%;
+      padding: 10px;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      margin-bottom:30px;
+    }
+    
+    /* ----- common css for LOGIN, SIGN UP screen --------*/
+    
+    .login_con .grey_box .btn.blue , .signup_con .grey_box .btn.blue, .change_pswd.grey_box .btn.blue
+    {
+      box-shadow: 1px 4px 4px #424040;
+      -webkit-box-shadow: 1px 4px 4px #424040;
+    }
+
+    .account_text
+    {
+      position: absolute;
+      bottom: 20px;
+      text-align:center;
+      width: 100%;
+    }
+
+    .account_text .btn
+    {
+      padding: 8px 3% 5px 3%;
+      margin: -7px 0 0 10px;
+      display: inline-block;
+      min-width: 55px;
+      font: normal 140% /120% "MyridProBold", Helvetica, Arial, sans-serif;
+    }
+    
+    .fb_icon
+    {
+      width: 45px;
+      height: 45px;
+      background: url(../../imgs/fb-icon.png) no-repeat 50% 50%;
+      background-size: contain;
+      display: inline-block;
+      margin-top: -10px;
+      vertical-align: middle;
+      margin-left: 10px;
+    }
+    .back_arrow
+    {
+      width: 43px;
+      height: 43px;
+      position: absolute;
+      top: 10px;
+      display: inline-block;
+      background: url(../../imgs/back.png) no-repeat 50% 50%;
+      background-size: contain;
+      left: 13px;
+    }
+    
+    /* ----- common css for LOGIN, SIGN UP screen End--------*/ 
+    
+    /* ----- css for Forgot Pswd --------*/
+    
+    .forgot_pswd_con
+    {
+      width:100%;
+      position:absolute;
+      top:50%;
+      margin-top: -74px;
+      padding: 10px;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+    }
+    .forgot_pswd_con input
+    {
+      width: 79% !important;
+      font: normal 110% /120% Arial, Helvetica, sans-serif !important;
+    }
+    .forgot_pswd_con input.btn
+    {
+      padding: 9px 3% 8px 3%;
+      margin-top: -5px;
+      width: 20% !important;
+      font: normal 140% /120% "MyridProSemibold", Helvetica, Arial, sans-serif !important;
+      border-radius: 3px;
+      -webkit-border-radius: 3px;
+
+    }
+    
+    .forgot_pswd_con .cross_icon
+    {
+      bottom: 5px;
+      right: 5px;
+    }
+
+    /* ----- css for Forgot Pswd End --------*/
+
+/* ----------------- css for LOGIN, SIGN UP, FORGOT PSWD screen  End-----------------*/
+
+
+
+/* ----------------------- css for GAME LIST ----------------------- */
+
+    .today_games, .upcoming_contests
+    {
+      width:100%;
+      float:left;
+    }
+    .today_games .title, .upcoming_contests .title
+    {
+      padding: 5px;
+      color:#fff;
+      text-transform:uppercase;
+      font: normal 120% /120% "Myrid Pro", Helvetica, Arial, sans-serif;
+
+    }
+
+    .game_info
+    {
+      width:72%;
+      float:left;
+    }
+    .team_logo_con
+    {
+      width: 40px;
+      float: left;
+      margin-right: 20px;
+    }
+    .team_logo 
+    {
+      height: 18px;
+      width: 35px;
+      box-shadow: 1px 2px 1px #000;
+      -webkit-box-shadow: 1px 2px 1px #000;
+      margin-bottom: 3px;
+    }
+    .team_logo_con .team_logo:last-child
+    {
+      margin-bottom: 0px;
+    }
+    .game_timing
+    {
+      width: 50px;
+      float: left;
+      padding: 6px 0;
+    }
+    .sponsor_logo
+    {
+      width:100px;
+      float:left;
+      height:40px;
+    }
+    .right_area
+    {
+      float: right;
+      width: 85px;
+      position: absolute;
+      right: 10px;
+      top: -2px;
+    }
+
+    .right_area .btn
+    {
+       width: 100% !important;
+       margin-top: 8px !important;
+    }
+    .right_area div:nth-child(2).btn.disabled
+    {
+     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#696F7D), color-stop(31%,#656C79), color-stop(33%,#606E6F), color-stop(100%,#576467)) !important;
+     opacity:0.8
+    }
+    .sponsor
+    {
+      float: left;
+      width: 70%;
+      padding: 5px 5px 0px 5px;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      color:#fff;
+      font-style:italic;
+      position: relative;
+    }
+    .sponsor .sponsor_logo
+    {
+      height: 30px;
+      margin-left: 5px;
+    }
+
+    .contest
+    {
+      margin-bottom:5px;
+      float: left;
+      width: 100%;
+      min-height: 78px;
+    }
+    .upcoming_contests_timing
+    {
+      color:#fff;
+      width: 70%;
+      float: left;
+      padding: 6px 0;
+    }
+    .upcoming_contests_timing div:nth-child(2)
+    {
+      color:#aaa;
+      font-size: 11px;
+    }
+
+    .upcoming_contests_timing .team_logo
+    {
+      box-shadow: 1px 1px 1px #000;
+      box-shadow: 1px 1px 1px #000;
+    }
+
+
+/* ----------------------- css for GAME LIST End----------------------- */
+
+
+/* ----------------------- css for Live Games -----------------------*/
+
+
+    .top_bar
+    {
+      width: 100%;
+      float: left;
+      padding: 5px;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-shadow: 1px 3px 1px #000;
+      -webkit-box-shadow: 1px 3px 1px #000;
+      border-top: 1px solid #767676;
+      margin: 5px 0 6px 0;
+      background: #2A2A2A;
+
+    }
+    .center
+    {
+      text-align: center;
+      width: 40%;
+      margin: auto;
+      background: whiteSmoke;
+      padding:0 3px;
+      background: #ddd;
+    }
+    .center div
+    {
+     display:inline-block;
+     width:50%;
+     padding: 3px 0;
+    }
+    .center div:nth-child(2)
+    {
+    border-right: 1px solid #999;
+    border-left: 1px solid #999;
+    }
+    .team 
+    {
+      width: 19px;
+      text-align: center;
+      background: whiteSmoke;
+      color: #333;
+      position: relative;
+      padding: 4px 0 2px 35px;
+
+    }
+    
+    .team_outer_left.ball
+    {
+       background: url(../../imgs/football_32.png)no-repeat right 50%;
+      background-size: contain;
+      padding-right: 28px;
+      float: left;
+    }
+    .team_outer_right.ball
+    {
+       background: url(../../imgs/football_32.png)no-repeat left 50%;
+      background-size: contain;
+      padding-left: 28px;
+      float: right;
+    }
+
+    .team span.logo 
+    {
+      display: inline-block;
+      position: absolute;
+      top: 1px;
+      left: 1px;
+      height: 17px;
+      width: 35px;
+    } 
+     
+    .bar.darkgrey.result
+    {
+       padding:10px 105px 8px 10px;	
+       position: relative;
+       box-shadow: 1px 2px 5px #0D0D0B;
+      -webkit-box-shadow: 1px 2px 5px #0D0D0B;
+    }
+    .result_con
+    {
+      width: 98px;
+      position: absolute;
+      right: 0;
+      background: #363434;
+      color: white;
+      text-align: center;
+      padding: 17px 0;
+      top: 0;
+      border-top: 2px solid #4a4848;
+    }
+    .result_con.win
+    {
+      border-top: 2px solid #c8d8a6;
+      color: black;
+      padding: 10px 0;
+      box-shadow: inset -0px -3px 2px #322D25;
+      -webkit-box-shadow: inset -0px -3px 2px #322D25;
+      background: -webkit-gradient(linear, left top, left bottom, from(#9AB95D), to(#B6D97E));
+    }
+    .result_con.loss
+    {
+      background: -webkit-gradient(linear, left top, left bottom, from(#E94747), to(#FE6060));
+      border-top: 2px solid #F39A9A;
+      color: black;
+      padding: 11px 0;
+      box-shadow: inset -0px -3px 2px #3F2220;
+      -webkit-box-shadow: inset -0px -3px 2px #3F2220;
+    }
+    
+   .predictions_con
+   {  
+      width:100%;
+      float:left;
+      padding:5px;
+      box-sizing:border-box;
+      -webkit-box-sizing:border-box;
+      /*min-height:400px;*/
+   }
+   
+   /* ----------------------- css for Tabs -----------------------*/
+   
+   .tabs_con
+   {
+      float:left;
+      width:100%;
+   }
+   .tabs_con .tab
+   {
+      width:33%;
+      float:left;
+      color:#fff;
+      padding: 6px 0 2px 0;
+      border-right:1px solid #5B5B5B;
+      text-align: center;
+      background: -webkit-gradient(linear, left top, left bottom, from(#707070), to(#424242));
+      border-bottom: 1px solid #424242;
+      box-sizing:border-box;
+      -webkit-box-sizing:border-box;
+   }
+   .tabs_con .tab.selected
+   {
+      background: -webkit-gradient(linear, left top, left bottom, from(#E3DDDD), to(#F9F8F8));
+      border-bottom: 1px solid #E2E1E1;
+      color:#000;
+   }
+   .tabs_con .tab:last-child
+   {
+      width:34%;
+      border-right:0; 	
+      border-top-right-radius: 5px;
+      -webkit-border-top-right-radius: 5px;
+   }
+   .tabs_con .tab:first-child
+   {
+      border-top-left-radius: 5px;
+      -webkit-border-top-left-radius: 5px;
+      padding: 12px 0 11px 0;
+   }
+   
+   /* ----------------------- css for Tabs End -----------------------*/
+   
+   /* ----------------------- css for Predict  -----------------------*/
+   
+   
+    .predict_box
+    {
+      width: 100%;
+      float: left;
+      background: white;
+      padding-bottom:5px;
+    }
+    .predict
+    {
+      width:100%;
+      float:left;
+      position:relative;
+    }
+    .predict div:nth-of-type(1)
+    {
+      float:left;
+      width:47%;
+      padding:10px;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+    }
+    .predict div:nth-of-type(2)
+    {
+      float:right;
+      width:47%;
+      text-align: right;
+      padding:10px;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+    }
+    .vs
+    {
+      width: 26px;
+      height: 20px;
+      position: absolute;
+      left: 50%;
+      top: 33px;
+      margin-left: -15px;
+      text-transform: uppercase;
+      display: block;
+      background: black;
+      color: white;
+      border-radius: 30px;
+      padding-top: 6px;
+      text-align: center;
+    }
+    .predict_btn_con
+    {
+      width: 90%;
+      margin: 50px 5% 8px 5%;
+      float: left;
+    }
+    .predict_btn .btn
+    {
+      font: normal 170% /120% "MyridProBold", Helvetica, Arial, sans-serif;
+    }
+    
+    /* ----------------------- css for Predict End -----------------------*/
+    
+    /* ----------------------- css for Prize leaderboard -----------------------*/
+    
+    
+    .leaderboard_box
+    {
+      width:100%;
+      float:left;
+      background:#fff;
+      min-height: 200px;
+    }
+    .leaderboard_box .user_con
+    { 
+      width:100%;
+      float:left;
+      padding:5px 5px 10px 5px;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+
+    }
+    .leaderboard_box .top_area
+    {   
+      background: -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#f3f3f3));
+      box-shadow: 1px 1px 1px #615B5B;
+      -webkit-box-shadow: 1px 1px 1px #615B5B;
+    }
+    .user
+    {
+      width: 100%;
+      float: left;
+      padding: 5px;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      border-radius:5px;
+      -webkit-border-radius:5px;
+      font: normal 130% /120% "Myrid Pro", Helvetica, Arial, sans-serif;
+    }
+    .user div
+    {
+      display: inline-block;
+      width:33%;
+    }
+    .user div:last-child
+    {
+      text-align: right;
+      width:32%;
+    }
+    .user.first_place
+    {
+      color:#fff;
+      background:#274872;
+    }
+    .user.on_the_bubble
+    {
+      color:#fff;
+      background:#b43d3d;
+    }
+    .user.current_user
+    {
+      color:#fff;
+      background:#5b78ae;
+    }
+  
+    /* ----------------------- css for Prize leaderboard End-----------------------*/
+    
+    /* ----------------------- css for Friend Prediction-----------------------*/  
+    
+    .friend_predictions_con
+    {
+      width: 100%;
+      float: left;
+    }
+    .friend_predictions_con .predictions
+    {  
+      width:100%;
+      float:left;
+      padding:5px;
+      box-sizing:border-box;
+      -webkit-box-sizing:border-box;
+      background: -webkit-gradient(linear, left top, left bottom, from(#fefefe), to(#f3f3f3));
+    }
+    .friend_predictions_con .predictions div:nth-of-type(1)
+    {
+      float:left;
+      width:60%
+    }
+
+    .friend_predictions_con .predictions div:nth-of-type(2)
+    {
+      float:left;
+      width:40%;
+      text-align: right;
+    }
+  /* ----------------------- css for Friend Prediction End-----------------------*/
+  
+  /* ----------------------- css for Contest Box-----------------------*/
+    .footer_con
+    {
+      width:100%;
+      float:left;
+      position: fixed;
+      bottom: 0;
+     
+    }
+    .footer
+    {  
+      width:100%;
+      float:left;
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(50%,#000000), color-stop(51%,#0f0f0f), color-stop(100%,#1c1c1c));
+      padding: 3px 8px;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      
+    }
+    .footer div
+    {
+      width:33%;
+      float:left;
+    }
+    .footer  .logo
+    {
+      height: 28px;
+      width: 34%;
+    }
+    .footer.game_list div:nth-child(1)
+    {
+     width:40%;
+     margin-top:4px;
+    }
+    .footer.game_list div:nth-child(2)
+    {
+     width:40%;
+     margin-top:4px;
+    }
+    .product_ads
+    {
+      width:100%;
+      height:40px;
+      float:left;
+          
+    }
+    
+    /* ----------------------- css for Contest Box End-----------------------*/
+
+
+
+/* ----------------------- css for Live Games End -----------------------*/
+
+
+
+
+/* ----------------------- css for Play to Win & pre game popup----------------------- */
+
+    .play_to_win_outer 
+    {
+       margin: 50% auto 0 auto;
+    }
+    .play_to_win 
+    {
+      background: -webkit-gradient(linear, left top, left bottom, from(#FEFEFE), to(#C4B9B9));
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      border-top-left-radius: 35px;
+      -webkit-border-top-left-radius: 35px;
+      border-bottom-left-radius: 236px;
+      -webkit-border-bottom-left-radius: 236px;
+      height: 110px;
+      position: relative;
+      margin-top: 40px;
+      text-align: center;
+      box-sizing: border-box;
+      padding: 6px 10px 10px 77px;
+      margin-bottom: 70px;
+      
+    }
+    .play_to_win.pre_game
+    { 
+      margin-bottom:35px;
+    }
+
+    .play_to_win .btn 
+    {
+      position: relative;
+      bottom: -6px;
+      border-radius: 0;
+      padding: 9px 3% 9px 50px;
+      -webkit-border-bottom-left-radius: 236px;
+      border-bottom-left-radius: 236px;
+    }
+          
+    .drive25
+    {
+     position: absolute;
+     top: -52px;
+     font: normal 302% /120% "Usa Sans", Helvetica, Arial, sans-serif;
+     left: 32px;
+    }
+            
+    .football_icon 
+    {
+      height: 228px;
+      width: 176px;
+      background: url(../../imgs/football.png) no-repeat;
+      background-size: contain;
+      position: absolute;
+      left: -45px;
+      top: -45px;
+      z-index: 1000;
+      -webkit-transform: rotate(65deg);
+
+    }
+    .trophy_icon
+    {
+      height: 73px;
+      width: 45px;
+      background: url(../../imgs/trophy.png) no-repeat;
+      background-size: cover;
+      position: absolute;
+      right: -4px;
+      top: -5px;
+      z-index: 1000;
+    }
+    .play_now 
+    {
+      width: 214px;
+      margin: 10px auto;
+      padding-right: 81px;
+      position: relative;
+    }
+    .play_now .btn 
+    {
+      position: absolute;
+      right: 0;
+      top: -9px;
+    }
+    .play_to_win  .content div:nth-child(1)
+    {
+     margin: 0 0 0 50px;
+
+    }
+    .play_to_win.pre_game  .content div:nth-child(1)
+    {
+     padding: 0 50px 0 30px;
+     margin: 0;
+width: 100%;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+
+    }
+    .play_to_win .content div:nth-child(2) input 
+    {
+      padding: 8px 0px 8px 64px;
+      margin: 0px 0 5px 0;
+      font: normal 160% /120% Arial, Helvetica, sans-serif;
+    }
+    .play_to_win.pre_game  .content div:nth-child(2) input
+    {
+       padding: 8px 26px 8px 64px;
+    }
+     .play_to_win  .content div:nth-child(3)
+    {
+      margin-left: 60px;
+    }
+    
+
+
+/* ----------------------- css for Play to Win & pre game popup End----------------------- */
+ 
+
+/*  ----------------------- css for Game Summary  ----------------------- */
+
+    .game_summ
+    {
+      padding:30px 10px;
+      width:100%;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+    }
+    .summ_box
+    {
+      padding:10px 15px 40px 15px;
+      margin:20px 0 10px 0;
+      background: -webkit-gradient(linear, left top, left bottom, from(#fefefe), to(#c3b8b8));
+      border-radius:20px;	
+    }
+    .summ_box .title
+    {
+      margin:10px 0 5px 0; 
+      color: #3B3B3B;
+    }
+    .summ_result
+    {
+      float: left;
+      width: 100%;
+      margin-bottom: 10px;
+      
+      color: #3B3B3B;
+    }
+    .summ_result div:nth-child(1)
+    {
+      width:40%;
+      float:left;
+      font: normal 130% /120% "Myrid Pro", Helvetica, Arial, sans-serif;
+    }
+    .summ_result div:nth-child(2)
+    {
+      width:60%;
+      float:left;
+      text-align: right;
+      font: normal 120% /120% "Myrid Pro", Helvetica, Arial, sans-serif;
+    }
+    .sponsored_by .logo
+    {
+      width: 140px;
+      height: 40px;
+      padding-top: 5px;
+    }
+    .outer.game_summ .btn
+    {
+      border-radius: 0;
+      width: 140px;
+      margin: 0 auto;	
+    }
+    .sponsored_by
+    {
+      width:250px;
+      margin:20px auto 20px auto;
+    }
+    .sponsored_by span:first-child
+    {
+     padding: 15px 14px 10px 10px;
+    }
+    
+/*  ----------------------- css for Game Summary  ----------------------- */
+
+
+/*  ----------------------- css for Region  ----------------------- */
+
+    #bodyHeightRegion 
+    {
+     /* margin-top:42px;*/
+    }
+    #networkRegionMask 
+    {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      z-index: 4000;
+      background-color: #000;
+      opacity: 0.6;
+      display: none;
+      top: 0px;
+      left: 0px;
+    }
+    #networkRegion 
+    {
+      top: 40%;
+      width: 94%;
+      height: auto;
+      position: absolute;
+      z-index: 4003;
+      margin-left: 3%;
+      display: none;
+    }
+    #popupRegion 
+    {
+      position: absolute;
+      z-index: 3005;
+      display: none;
+      width: 94%;
+      top: 0px !important;
+      left: 3%;
+      height:100%;
+    }
+    #popupRegionMask 
+    {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      z-index: 3004;
+      background-color: whitesmoke;
+      opacity: 0.6;
+      display: none;
+      top: 0px;
+      left: 0px
+    }
+    #popupRegionMask.grass
+    {
+     background: url(../../imgs/grass.png)no-repeat !important;
+     background-size: cover;
+     opacity:1 !important;
+    }
+    #loadingRegion 
+    {
+      position: absolute;
+      z-index: 3005;
+      display: none;
+      width: 100%;
+      top: 40px;
+      left: 0px;
+      background: url(../../imgs/processing_img.gif) no-repeat 50% 50%;
+      background-size: 71px;
+    }
+    #loadingRegionMask 
+    {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      z-index: 3004;
+      background-color: whitesmoke;
+      opacity: 0.6;
+      display: none;
+      top: 0px;
+      left: 0px;
+    }
+
+/*  ----------------------- css for Region  ----------------------- */
+
+
+/*  -----------------------  CSS for Input Fields  ----------------------- */
+
+    select 
+    {
+      -webkit-appearance: none;
+      font: normal 140%  /120% Arial, Helvetica, sans-serif;
+      padding: 8px 10px;
+      border:1px solid #a2aec9;
+      box-shadow:0px 1px 1px #686464;
+      -webkit-box-shadow:0px 1px 1px #686464;
+       background: url(../../imgs/select_icon.png)no-repeat 100% 0, -webkit-gradient(linear, left top, left bottom, from(#FCFCFC), to(#D1D1D1));
+      background-size: 28px 33px, cover;
+    }
+    input, input[type=text], input[type=email], input[type=password] 
+    {
+      width: 100%;
+      padding: 10px 3%;
+      font: normal 140%  /120% Arial, Helvetica, sans-serif;
+      -webkit-appearance: none;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      background: #fff;
+      border-radius: 7px;
+      -webkit-border-radius: 7px;
+      border:0;
+      margin:0;
+      margin-top: 3px;
+      box-shadow: 0 0 0 1px #BBB;
+      -webkit-box-shadow: 0 0 0 1px #BBB;
+    }
+    input::-webkit-input-placeholder 
+    {
+      color: #b3b3b3;
+    }
+
+    input:focus, textarea:focus, select:focus
+    {
+      outline: none;
+    }
+    input[type="range"] 
+    {
+      background: #d5cdcb;
+      height: 7px;
+      padding: 0;
+      border:0;
+    }
+    input[type="range"]::-webkit-slider-thumb 
+    {
+      -webkit-appearance: none !important;
+      height:30px;
+      width:30px;
+      border:0;
+      background: url(../../imgs/slider_thumb.png) no-repeat 0 0;
+      background-size: cover;
+      
+    }
+
+
+/*  -----------------------  CSS for Input Fields End  -----------------------  */
+
+
+
+
+
+
+/* -----------------------  CSS for Predict Popup -----------------------  */
+
+    .popup 
+    {
+      
+      float: left;
+      width: 100%;
+      margin: 2% 0;
+      position: absolute;
+      
+      height:96%;
+    }
+    .popup.place_bet_popup
+    {
+     background:#000;
+    }
+    .bg_red
+    {
+      
+      padding:10px;
+      width:100%;
+      box-sizing:border-box;
+      -webkit-box-sizing:border-box;
+      color:#fff;
+      background: -webkit-gradient(linear, left top, left bottom, from(#C02F2F), to(#8D2C2D));
+    }
+    .current_score
+    {
+      width: 50px;
+      display: inline-block;
+      margin: 0 20px;
+      position: relative;
+    }
+    .dot
+    {
+      width: 14px;
+      height: 11px;
+      display: inline-block;
+      /*position: absolute;
+      top: -6px;
+      left: 23px;*/
+      border-radius: 6px;
+      background: #000;
+      margin-left:5px;
+    }
+
+    .make_prediction_box
+    {
+      width:100%;
+      float:left;
+    }
+
+    .make_prediction_box .title 
+    {
+      background: -webkit-gradient(linear, left top, left bottom, from(#ECECEC), to(#E1E1E1));
+      padding: 14px 20px;
+      color: black;
+      text-align: center;
+      box-shadow: inset 1px -2px 1px white;
+      -webkit-box-shadow: inset 1px -2px 1px white;
+      width: 100%;
+      float: left;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      border-top: 1px solid #8D8B8B;
+    }
+    .make_prediction_box .title.selected
+    {
+      background: #5460d5;	
+      -webkit-box-shadow: inset 0px 1px 1px #222;
+      box-shadow: inset 0px 1px 1px #222;
+      border-top: 1px solid #A2A2A2;
+      color:#fff;
+    }
+    .make_prediction_box .title span:first-child
+    {
+      margin-right: 10px;
+    }
+    .prediction_option
+    {
+      border-top: 1px solid #CFCFCF;
+      width: 100%;
+      float: left;
+      background: -webkit-gradient(linear, left top, left bottom, from(#ECECEC), to(#CDCDCD));
+      -webkit-box-shadow: inset 1px -2px 1px white;
+      box-shadow: inset 1px -2px 1px white;
+    }
+    .prediction_option div
+    {
+
+      width: 49.5%;
+      float: left;
+      text-align: center;
+      padding: 12px 0;
+      border-bottom:1px solid #CFCFCF;
+     /* height: 48px;*/
+    }
+    .prediction_option div.selected
+    {
+      background:#5460d5;
+      -webkit-box-shadow: inset 0px 1px 1px #303CB4;
+      box-shadow: inset 0px 2px 1px #303CB4;
+      color:#fff;
+    }
+    .prediction_option div:nth-of-type(2n)
+    {
+      width:49.5%;
+      border-left:1px solid #CFCFCF;
+      /*border-right:1px solid #CFCFCF;*/
+      /*box-sizing: border-box;
+      -webkit-box-sizing: border-box;*/
+      box-shadow: inset 1px 0px 0px white, inset -1px 0px 0px white;
+      -webkit-box-shadow: inset 1px 0px 0px white, inset -1px 0px 0px white;
+    }
+
+	/*Pseudo class for prediction popup on hover*/
+	div.prediction_option_h:hover {
+		background:#5460d5;
+	}
+
+    
+  /*   .prediction_option div p:first-child
+    {
+     overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    } */
+    .slider_con
+    {
+     
+width: 100%;
+float: left;
+color: #fff;
+padding: 10px;
+margin: 20px 0 0 0;
+text-transform: uppercase;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+display:none;
+    }
+    .slider_con div:nth-child(1)
+    {
+     width:10%;
+    }
+    .slider_con div:nth-child(2)
+    {
+     width:78%;
+    }
+    .slider_con div:nth-child(3)
+    {
+     width:12%;
+    }
+    .popup.place_bet_popup .footer_area
+    {
+       width:100%;
+       float:left;
+       background:#000;
+       text-align:center;
+       color:#666;
+       padding: 30px 0 15px 0;
+    }
+    .popup.place_bet_popup .footer_area .btn
+    {
+      background: -webkit-gradient(linear, left top, left bottom, from(#5460d5), to(#25309d));
+      width: 130px;
+      margin: 0 auto;
+     
+    }
+
+
+/* -----------------------  CSS for Predict Popup End-----------------------  */
+
+
+/* -----------------------  CSS for Cross Icon  -----------------------  */
+
+    .cross_outer
+    {
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      bottom: 0;
+      right: 0px;
+    }
+    .cross_icon
+    {
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      bottom: -4px;
+        right: -3px;
+      background: url(../../imgs/cross.png) no-repeat 0 0;
+      background-size: cover;
+    }
+    .play_to_win_outer .cross_outer
+    {
+      bottom: 5px;
+      right: -7px;
+    }
+    .play_to_win_outer .cross_icon, .change_password_outer .cross_icon
+    {
+      bottom: 5px;
+      right: 5px;
+    }
+    .change_password_outer .cross_outer
+    {
+     bottom: 7px;
+     right: 7px;
+    }
+
+/* -----------------------  CSS for Cross Icon  End -----------------------  */
+
+
+
+/* --------------- css for setting screen --------------- */
+
+  .setting_con
+  {
+   width: 94%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FDFCFC), to(#C4BABA));
+  position: absolute;
+  top: 45px;
+  left: 3%;
+  height: 100%;
+  overflow-y: scroll;
+  }
+  .setting_con ul
+  {
+   border: 1px solid #ADADAD;
+   border-radius: 10px;
+   background:#fff;
+   margin: 10px 7px;
+  }
+  .setting_con ul li
+  {
+   padding: 14px 10px 10px 10px;
+   font: normal 150% /120% "Myrid Pro", Helvetica, Arial, sans-serif;
+   background: url(../../imgs/arrow_grey.png)no-repeat 96% 50%;
+   background-size: 9px;
+   border-top: 1px solid #ADADAD;
+  }
+  .setting_con ul li:first-child
+  {
+   border-top: 0;
+  }
+  .setting_con ul li a
+  {
+   color: #1E167F;
+   border-bottom: 2px solid #1E167F;
+  }
+  .push_notification
+  {
+   margin:20px;
+  }
+  .push_notification div:nth-child(2)
+  {
+   margin: 20px 10px 10px 10px;
+  }
+  .setting_con .white_box
+  {
+    background: white;
+    margin: 0 5px;
+    padding:5px;
+    border-left: 1px solid #ADADAD;
+    border-right: 1px solid #ADADAD;
+    min-height:100%
+  }
+  .setting_con .white_box ol
+{
+list-style-type:decimal;
+padding-left:25px;
+}
+  .setting_con .white_box ol li
+{
+ margin-bottom:10px;
+}
+.setting_con .white_box .title
+{
+ margin-left:5px;
+}
+.setting_con select
+{
+ width: 100%;
+background: url(../../imgs/arrow_grey.png)no-repeat 96% 50%;
+background-size: 9px;
+border: 0;
+box-shadow: none;
+font: normal 150% /120% Arial, Helvetica, sans-serif;
+border-radius: 0;
+padding: 14px 10px 10px 10px;
+}
+.change_pswd
+{
+position: absolute; 
+top: 50%; 
+margin: -108px 10px 0 10px;
+}
+/* --------------- css for setting screen End--------------- */
+
+
+/* --------------- css for Alert -------------- */
+    .alert
+    {
+      position: absolute;
+      width: 100%;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      top: 50%;
+      margin-top: -71px;
+      text-align: center; 
+      background: -webkit-gradient(linear, left top, left bottom, from(#FEFEFE), to(#C3B8B8)); 
+      padding: 20px 10px 15px 10px; 
+      border-radius: 10px; 
+      -webkit-border-radius: 10px; 
+      
+    }
+    .alert .two_btn_outer
+    {
+      width: 100%;
+      float: left;
+      margin-bottom: 18px;
+    }
+    .alert .two_btn
+    {
+     width: 45%;
+     color:#fff;
+     padding:10px 0;
+    }
+    .alert .two_btn.grey
+    {
+     background:#444;
+    }
+    .alert .brand_logo
+    {
+     width: 100px;
+    }
+/* --------------- css for Alert End -------------- */
+
+
+
+
+/* Page Specific CSS starts here */
+#login_Body #headerRegion, #forgotPwd_Body #headerRegion, #signup_Body #headerRegion, #newQuestion_Body #headerRegion {
+	position : absolute;
+}
+
+
+.error_page_h 
+			{
+			 
+			 position: absolute;
+			 height: 100%;
+			 width: 90%;
+			 padding: 0 5%;
+			 text-align : center;
+			 font-size:10px;
+			 font-family :"Roboto", Helvetica, Arial, sans-serif;
+			 color: #556670;
+			}
+			.font20
+		    {
+		     font: normal 200%/120% "Roboto", Helvetica, Arial, sans-serif;
+		    }
+    
+			.font15
+			{
+			 font: normal 150%/130% "Roboto", Helvetica, Arial, sans-serif;
+			}
+			.connection_lost 
+			{
+				
+				margin: 20px 0;
+				text-align: center;
+				text-transform: uppercase;
+			}
+			
+
+/* Page Specific CSS ends here */
+
+.offer_con
+{
+width: 100%;
+float: left;
+margin-top: 50px;
+margin-bottom: 20px;
+padding: 0 10px;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.offer
+{
+width: 100%;
+float: left;
+padding: 10px 7px;
+background: -webkit-gradient(linear, left top, left bottom, from(#F6F6F6), to(#F3F3F3));
+box-shadow: 1px 1px 1px #615B5B;
+-webkit-box-shadow: inset 1px 1px 1px #615B5B;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.brand_logo
+{
+ width: 30%;
+ float: left;
+ height: 40px;
+}
+.offer_detail
+{
+width: 30%; 
+float: left; 
+margin: 0 5%; 
+overflow: hidden;     
+text-overflow: ellipsis;     
+display: -webkit-box;     
+-webkit-line-clamp: 3; /* number of lines to show */     
+-webkit-box-orient: vertical;
+}
+.points
+{
+width: 30%;
+float: left; 
+text-align: right; 
+text-align: right; 
+font-weight: bold; 
+color: #95B535 !important;
+}
+.offer .points .btn
+{
+padding: 9px 8px 6px 8px;
+font: normal 160% /120% "MyridProSemibold", Helvetica, Arial, sans-serif;
+width: 60px;
+float: right;
+margin: 6px -4px 0 5px;
+box-shadow: none;
+-webkit-box-shadow: none;
+}

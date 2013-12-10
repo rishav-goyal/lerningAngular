@@ -1,0 +1,82 @@
+.btn, input[type=button], input[type=submit] 
+{
+	font: normal 180% /120% "MyridProSemibold", Helvetica, Arial, sans-serif;
+	vertical-align: middle;
+	/*text-transform: uppercase;
+	padding: 12px 3%;*/
+  padding: 12px 3% 9px 3%;
+	text-align: center;
+	color: #fff;
+	border-radius:5px;
+  -webkit-border-radius:5px;
+	border:0;
+}
+.btn:active, input[type=button]:active, input[type=submit]:active
+.btn_active, input[type=button]_active, input[type=submit]_active
+{
+  box-shadow: inset 1px 2px 2px #080B05;
+  -webkit-box-shadow: inset 1px 2px 2px #080B05;
+}
+.btn.dark_blue, input[type=button].dark_blue, input[type=submit].dark_blue 
+{
+	
+	background: -webkit-gradient(linear, left top, left bottom, from(#5460d5), to(#25309d));	
+	box-shadow: 1px 3px 4px #222;
+	-webkit-box-shadow: 1px 3px 4px #222;
+}
+.btn.fb, input[type=button].fb, input[type=submit].fb 
+{
+	width: 250px;
+	margin: 10px auto 0 auto;	
+	background: -webkit-gradient(linear, left top, left bottom, from(#5b78ae), to(#274872));
+	box-shadow: 1px 3px 4px #222;
+	-webkit-box-shadow: 1px 3px 4px #222;
+	position: relative;
+}
+
+.btn.blue, input[type=button].blue, input[type=submit].blue 
+{
+	background: -webkit-gradient(linear, left top, left bottom, from(#5875AB), to(#2B4C77));
+	box-shadow: 1px 4px 4px #080b05;
+    -webkit-box-shadow: 1px 4px 4px #080b05;
+}
+.btn.sign_up
+{
+	width: 240px;
+	margin: 0 auto;
+	border-radius: 0;
+	margin-top: 10px;
+}
+
+.today_games .bar .btn,.upcoming_contests .bar .btn
+ {
+    float: right;
+    width: 85px;
+    padding: 11px 0 8px 0;
+    margin-top: 1px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    font: normal 160% /120% "MyridProSemibold", Helvetica, Arial, sans-serif;
+
+ }
+ 
+
+.today_games .bar .btn.disabled,.upcoming_contests .bar .btn.disabled 
+{
+	
+	background: -webkit-gradient(linear, left top, left bottom, from(#6D7482), to(#5E6670));
+		
+}
+
+.btn.predict_btn
+{
+	background: -webkit-gradient(linear, left top, left bottom, from(#535fd3), to(#2732a0));
+	box-shadow: 1px 6px 3px #666;
+    -webkit-box-shadow: 1px 6px 3px #666;
+}
+.btn.predict_btn.disabled
+{
+	background: -webkit-gradient(linear, left top, left bottom, from(#a9afe9), to(#949ad1));
+	box-shadow: 1px 4px 6px #888;
+    -webkit-box-shadow: 1px 4px 6px #888;
+}

@@ -1,0 +1,13 @@
+<div >
+	<h1>Game List</h1>
+
+	<ul>
+		<li ng-repeat='games in gamesList |  orderBy:"IsLive"'>
+			{{games.AwayTeam.TeamName}} vs {{games.HomeTeam.TeamName}}
+		</li>
+	</ul>
+	<br />
+	<br />
+
+	<a href='#/login'>Logout</a>
+</div>
